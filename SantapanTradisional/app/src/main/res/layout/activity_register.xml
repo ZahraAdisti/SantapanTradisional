@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/br"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/Tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SANTAPAN TRADISIONAL"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Tittle" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Register"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/white"
+        android:hint="@string/email_hint"
+        android:textColor="@android:color/black"
+        android:padding="20dp"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="28dp" />
+
+    <EditText
+        android:id="@+id/NamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/white"
+        android:hint="@string/name_hint"
+        android:textColor="@android:color/black"
+        android:padding="20dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="28dp" />
+
+    <EditText
+        android:id="@+id/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NamaLengkap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:hint="@string/username_hint"
+        android:padding="20dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="28dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nama"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:drawableStart="@drawable/baseline_https_24"
+        android:drawablePadding="28dp"
+        android:hint="@string/password_hint"
+        android:padding="20dp"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/register_button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/layoutRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/RegisterButton"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_info_info"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="20dp"
+            android:textColor="#6200EE"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+</RelativeLayout>

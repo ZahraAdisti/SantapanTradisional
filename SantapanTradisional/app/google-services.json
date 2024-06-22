@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634603284019",
+    "project_id": "santapantradisional",
+    "storage_bucket": "santapantradisional.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634603284019:android:c7be6e0434900a78932546",
+        "android_client_info": {
+          "package_name": "com.example.santapantradisional"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGKSC-4oJmc6WNFTsza4iEhgdVjFct-lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

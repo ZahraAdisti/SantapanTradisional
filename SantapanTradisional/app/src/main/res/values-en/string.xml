@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Santapan Tradisional</string>
+    <string name="login">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register">Register</string>
+    <string name="register_button">Register</string>
+    <string name="welcome_message">Welcome to Santapan Tradisional</string>
+    <string name="description">Here are some traditional recipes for you to enjoy.</string>
+    <string name="search_hint">Search...</string>
+    <string name="title_discover_traditional_food">Discover Traditional Food!</string>
+    <string name="text_traditional_cuisine">Traditional Cuisine</string>
+    <string name="email_hint">Email</string>
+    <string name="register_info">Dont have an account?</string>
+    <string name="name_hint">Full name</string>
+    <string name="register_info_info">Already have an account?</string>
+    <string name="logout_button">Logout</string>
+    <string name="email_format">format_email</string>
+    <string name="username_format">format_username</string>
+    <string name="full_name_format">format_full_name</string>
+    <string name="detail_resep">Detail Recipe</string>
+    <string name="detail_restaurant">detail restaurant</string>
+</resources>

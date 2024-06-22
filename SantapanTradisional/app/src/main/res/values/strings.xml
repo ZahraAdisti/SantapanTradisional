@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Santapan Tradisional</string>
+    <string name="login">Masuk</string>
+    <string name="username_hint">Nama Pengguna</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="login_button">Masuk</string>
+    <string name="register">Register</string>
+    <string name="register_button">Daftar</string>
+    <string name="welcome_message">Selamat Datang di Santapan Tradisional</string>
+    <string name="description">Berikut beberapa resep tradisional untuk Anda nikmati.</string>
+    <string name="search_hint">Cari...</string>
+    <string name="title_discover_traditional_food">Temukan Makanan Tradisionalmu!</string>
+    <string name="text_traditional_cuisine">Masakan Tradisional</string>
+    <string name="email_hint">Email</string>
+    <string name="register_info">Belum punya akun?</string>
+    <string name="name_hint">hint_nama</string>
+    <string name="register_info_info">info_register</string>
+    <string name="logout_button">Logout</string>
+    <string name="email_format">format_email</string>
+    <string name="username_format">format_username</string>
+    <string name="full_name_format">format_full_name</string>
+    <string name="detail_resep">Detail Resep</string>
+    <string name="detail_restaurant">Detail Restaurant</string>
+</resources>
